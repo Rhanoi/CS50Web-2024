@@ -1,0 +1,41 @@
+%menu {
+    text-decoration: none;
+    color: white;
+
+}
+$background:#202124;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: $background;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    padding:24px;
+    gap: 20px;
+    
+
+    a{
+        @extend %menu;
+    }
+    a:hover{
+        text-decoration: underline;
+    }  
+}
+#search{
+    display: grid;
+    place-items: center;
+    height: 80vh;
+    h1{
+        color: white;
+    }
+    form{
+        input[type="text"]{
+            margin-bottom: 25px;
+            
+        }
+    }
+}
