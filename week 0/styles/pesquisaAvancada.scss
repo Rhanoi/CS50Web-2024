@@ -1,0 +1,49 @@
+%menu {
+    text-decoration: none;
+    color: white;
+
+}
+$background:#202124;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: $background;
+    margin:2%;
+}
+h2{
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    
+    gap: 20px;
+    
+
+    a{
+        @extend %menu;
+    }
+    a:hover{
+        text-decoration: underline;
+    }  
+}
+#search{
+    
+        
+        h1{
+            color: white;
+        }
+        hr{
+            color: #fff;
+        }
+        form{
+            padding: 0 5%;
+            label{                
+                color: #fff;                
+                
+            }
+        }
+    }

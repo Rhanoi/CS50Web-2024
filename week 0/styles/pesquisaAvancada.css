@@ -1,0 +1,42 @@
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #202124;
+  margin: 2%;
+}
+
+h2 {
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+#search h1 {
+  color: white;
+}
+#search hr {
+  color: #fff;
+}
+#search form {
+  padding: 0 5%;
+}
+#search form label {
+  color: #fff;
+}
+
+/*# sourceMappingURL=pesquisaAvancada.css.map */
