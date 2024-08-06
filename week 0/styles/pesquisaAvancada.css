@@ -29,6 +29,9 @@ nav a:hover {
 #search h1 {
   color: white;
 }
+#search h2 {
+  font-size: larger;
+}
 #search hr {
   color: #fff;
 }
