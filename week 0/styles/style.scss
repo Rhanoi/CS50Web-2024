@@ -1,15 +1,31 @@
 %menu {
     text-decoration: none;
     color: white;
+    font-size: 13px;
 
 }
 $background:#202124;
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background-color: $background;
+}
+button{
+    height: 36;
+    padding: 8px 16px;
+    background-color: rgb(48, 49, 52);
+    color:white;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    margin: 0px 4px;
+}
+button:hover{
+    border: 1px solid rgb(232, 234, 237);
 }
 nav{
     display: flex;
@@ -35,7 +51,15 @@ nav{
     form{
         input[type="text"]{
             margin-bottom: 25px;
+            font-size: 16px;
             
+        }
+        input{
+            border-radius: 100px;
+        }
+        div{
+            display: flex;
+            justify-content: center;
         }
     }
 }

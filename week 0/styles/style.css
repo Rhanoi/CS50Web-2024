@@ -1,15 +1,33 @@
 nav a {
   text-decoration: none;
   color: white;
+  font-size: 13px;
 }
 
 * {
   margin: 0px;
   padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
   background-color: #202124;
+}
+
+button {
+  height: 36;
+  padding: 8px 16px;
+  background-color: rgb(48, 49, 52);
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 4px;
+  margin: 0px 4px;
+}
+
+button:hover {
+  border: 1px solid rgb(232, 234, 237);
 }
 
 nav {
@@ -32,6 +50,14 @@ nav a:hover {
 }
 #search form input[type=text] {
   margin-bottom: 25px;
+  font-size: 16px;
+}
+#search form input {
+  border-radius: 100px;
+}
+#search form div {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

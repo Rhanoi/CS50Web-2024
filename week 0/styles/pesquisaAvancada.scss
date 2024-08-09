@@ -8,6 +8,9 @@ $background:#202124;
     margin: 0px;
     padding: 0px;
 }
+button{
+    height: 20px;
+}
 body{
     background-color: $background;
     margin:2%;
@@ -48,5 +51,6 @@ nav{
                 color: #fff;                
                 
             }
+            
         }
     }
